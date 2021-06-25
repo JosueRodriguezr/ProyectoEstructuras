@@ -16,9 +16,10 @@ public class App extends Application {
     @Override
     public void start(Stage primaryStage) {
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+        btn.setText("Proyecto");
         btn.setOnAction((ActionEvent event) -> {
             System.out.println("Hello World!");
+            System.out.println("xd");
         });
         
         StackPane root = new StackPane();
